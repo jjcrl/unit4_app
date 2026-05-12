@@ -1,0 +1,35 @@
+ul {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin:none;
+    padding: 10px;
+}
+
+li {
+    width: 220px;
+    height: 290px;
+    background-color: whitesmoke;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: none;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    border: solid black 2px;
+    padding-top: 40px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
